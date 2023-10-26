@@ -1295,7 +1295,7 @@
     .logos{
         /* display: flex;
         flex-wrap: wrap; */
-        grid-template-columns: repeat(3,180px);
+        grid-template-columns: repeat(3,140px);
         /* column-gap: 8px; */
         padding-top: 11px;
     }
