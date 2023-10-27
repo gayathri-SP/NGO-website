@@ -1,16 +1,16 @@
 @font-face {
     font-family: "OpenSans-Light";
-    src: url("font/static/OpenSans-Light.ttf");
+    src: url("font/OpenSans/OpenSans-Light.ttf");
 }
 
 @font-face {
     font-family: "OpenSans-Bold";
-    src: url("font/static/OpenSans-Bold.ttf");
+    src: url("font/OpenSans/OpenSans-Bold.ttf");
 }
 
 @font-face {
     font-family: "Nunito-Bold";
-    src: url("font/static/NunitoSans_10pt-Bold.ttf");
+    src: url("font/NunitoSans/NunitoSans_10pt-Bold.ttf");
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: "Nunito-Regular";
-    src: url("font/static/NunitoSans_10pt-Regular.ttf");
+    src: url("font/NunitoSans/NunitoSans_10pt-Regular.ttf");
 }
 
 @font-face {
@@ -1010,6 +1010,15 @@
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0px;
+}
+.home h4 a{
+    font-family: "Nunito-Bold";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    padding-top: 0px;
 }
 .footerframe p {
     font-family: "Nunito-Bold";
