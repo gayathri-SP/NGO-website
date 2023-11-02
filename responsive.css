@@ -1150,16 +1150,20 @@
     }
     #aboutp1 {
         text-align: center;
-        width: 323px;
+        width: 100%;
     }
     #aboutp2{
         width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
     }
     #abtbtn {
-        margin-left: 97px;
+        display: flex;
+    align-items: center;
+    margin: auto;
     }
     .abtsectionimage img {
-        width: 330px;
+        width: 100%;
         height: 430px;
     }
     #text1st p {
@@ -1172,12 +1176,14 @@
         font-size: 30px;
         line-height: 40px;
         width: 100%;
+        text-align: center;
     }
     #para p {
         width: 100%;
     }
     #servicepara p {
         width: 100%;
+        text-align: center;
     }
     #servicepara{
         padding-left:6px;
@@ -1186,11 +1192,12 @@
         height: 1212px;
     } */
     .service{
-        padding-left: 16px; 
+        padding-left: 0px; 
     }
     .servicefunction p {
         padding-top: 5px;
         width: 100%;
+        font-size: 14px;
     }
     .servicefunction {
         padding-left: 5px;
@@ -1218,7 +1225,7 @@
     }
     .right img {
         height: 329px;
-        width: 304px;
+        width: 100%;
     }
     .page2 {
         padding: 30px 15px;
@@ -1491,8 +1498,8 @@
         padding-left: 0px;
     }
     .statistics-para {
-        width: 326px;
-        padding-left: 2px;
+        width:100%;
+        padding-left: 0px;
     }
     .statistics-para p{
         font-size:35px;
@@ -1501,7 +1508,7 @@
         text-align: center;
     }
     #statistics-content2 p {
-        width: 330px;
+        width: 100%;
         padding-left: 0px;
         text-align: center;
     }
@@ -1514,13 +1521,13 @@
         line-height: 24px;
     }
     .statistics-chart {
-        width: 321px;
+        width: 100%;
         height: 299px;
         margin-left: 0px;
         margin-top: 26px;
     }
     .statistics-chart p{
-        padding-left: 102px;
+        padding-left: 132px;
         font-size: 21px;
         padding-top: 128px;
     }
@@ -1794,7 +1801,7 @@
         background-color: rgb(13, 80, 66);  
     }
     .menu.active{
-        top: -459px;
+        top: -481px;
     }
     .menu ul{
         margin-top: 60px;
