@@ -67,12 +67,13 @@
     height: 62px;
 
 }
-#menu ul {
+.menu ul {
     padding-left: 19px;
     padding-top: 10px;
+    display: flex;
 }
 
-#menu ul li {
+.menu ul li {
     display: inline-block;
     padding-left: 55px;
     padding-top: 15px;
@@ -82,11 +83,11 @@
     line-height: 21.82px;
 }
 
-#menu ul li a {
+.menu ul li a {
     text-decoration: none;
     color: rgba(55, 65, 81, 1);
 }
-#menu ul li a:hover{
+.menu ul li a:hover{
     color:orangered;
 }
 #btn1 {
@@ -1947,7 +1948,7 @@ textarea {
     flex-direction: column;
     row-gap: 5px;
 }
-.menu-icon{
+.menu-icon,.close{
     display: none;
 }
 .menu-icon .line{

@@ -8,11 +8,11 @@
     .name img{
         margin-left: 20px;
     }
-    #menu ul {
+    .menu ul {
         
         padding-top: 10px;
     }
-    #menu ul li {
+    .menu ul li {
         padding-left: 20px;
     }
     #btn1{
@@ -293,6 +293,9 @@
     }
     #menu ul li a:hover{
         color:orangered;
+    }
+    .time-icon{
+        display:none;
     }
 }
 @media screen and (max-width:1200px)
@@ -711,11 +714,11 @@
 }
 @media screen  and (max-width:991px)
 {
-    #menu ul li {
+    .menu ul li {
         font-size: 13px;
         padding-left: 9px;
     } 
-    #menu ul{
+    .menu ul{
         padding-left: 9px;
     } 
     #name img {
@@ -1142,8 +1145,12 @@
         margin-left: -5px;
     }
     .aboutsection{
-        padding-left: 11px;
+        padding-left: 0px;
         row-gap:28px;
+    }
+    #aboutp1 {
+        text-align: center;
+        width: 323px;
     }
     #aboutp2{
         width: 100%;
@@ -1152,21 +1159,19 @@
         margin-left: 97px;
     }
     .abtsectionimage img {
-        width: 315px;
+        width: 330px;
         height: 430px;
     }
     #text1st p {
         margin-left: 36px;
     }   
     .servicesection{
-        padding-top: 50px;
-        padding-left:20px;
+        padding: 30px 15px;
     } 
     #sectionleft {
         font-size: 30px;
         line-height: 40px;
         width: 100%;
-        padding-left: 3px;
     }
     #para p {
         width: 100%;
@@ -1193,13 +1198,13 @@
     #projectcontent p{
         font-size: 40px;
         line-height: 50px;
-        padding-left: 20px;
+        text-align: center;
         width: 100%;
     }
     #projecttitle{
-        width: 350px;
+        width: 309px;
         font-size: 16px;
-        padding-left: 17px;
+      
     }
     #projecttitle::before{
         margin-left: 4px;
@@ -1209,16 +1214,17 @@
         padding-left: 3px;
     }
     .projectsection {
-        padding: 30px 24px 40px 9px;
+        padding: 30px 15px;
     }
     .right img {
         height: 329px;
         width: 304px;
     }
     .page2 {
-       padding-left: 6px;
+        padding: 30px 15px;
     }
     .header-frame{
+        padding: 65px 15px;
         display: flex;
         flex-wrap: wrap;
     }
@@ -1229,17 +1235,21 @@
         width:100%;
     }
     .frame-left {
-        padding-left: 25px;
+        padding-left: 0px;
+        text-align: center;
+        width: 253px;
     }
     .frame-content p{
         width: 100%;
-        padding-left: 15px;
+        padding-left: 0px;
         padding-right: 0px;
         padding-top: 20px;
+        text-align: center;
     }
     .frame-para p {
         width:100%;
-        padding-left: 19px;
+        text-align: center;
+        padding-left: 0px;
         padding-top: 20px;
         padding-right: 0px;
     }
@@ -1247,7 +1257,7 @@
         padding-right: 0px;
     }
     .header-frames{
-        padding-right: 0px;
+        padding: 13px 15px;
     }
     .header-bg-pink {
         height: 67px;
@@ -1263,39 +1273,45 @@
         padding-left: 0px;
     }
     .frames{
-        padding-left: 8px;
+        padding: 0px;
     }
     .frame18 h3 {
         padding-top: 14px;
-        padding-left: 68px;
+        padding-left: 0px;
+        text-align: center;
     }
     .frame18-para p {
         width: 100%;
+        text-align: center;
     }   
     .frame19-para p {
         width: 100%;
+        text-align: center;
     } 
     .frame18-content p {
         width: 100%;
         font-size: 24px;
         line-height: 34px;
+        text-align: center;
     }
     .frame19 h3 {
         padding-top: 14px;
-        padding-left: 68px;
+        padding-left: 0px;
+        text-align: center;
     }
     .frame19-content p {
         width: 100%;
         font-size: 24px;
         line-height: 34px;
+        text-align: center;
     }
     .section3 {
-        padding: 0px 20px;
+        padding: 10px 10px;
     }
     .logos{
         /* display: flex;
         flex-wrap: wrap; */
-        grid-template-columns: repeat(3,140px);
+        grid-template-columns: repeat(2,128px);
         /* column-gap: 8px; */
         padding-top: 11px;
     }
@@ -1401,7 +1417,7 @@
         padding-left:24px;
     }
     .what-projectsec {
-        padding: 0px;
+        padding:  20px 15px;
     }
     /* .projectsection {
         height: 1676px;
@@ -1417,17 +1433,17 @@
         width: 100%;
     }
     .footersection {
-        display:flex;
-        flex-wrap: wrap;
-        column-gap: 12px;
-        /* padding-top:40px; */
-        padding: 80px 35px 30px 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+        text-align: center;
+        padding: 80px 15px 30px 15px;
     }
-    .home{
-        padding-left: 20px;
+    .footersection h4 {
+        padding-top: 40px;
     }
     .footerform {
-        padding: 0px 0 46px 59px;
+        padding: 0px 0 10px 59px;
     }
     .footerframe{
         padding-left: 0px;
@@ -1437,7 +1453,7 @@
         width: 314px;
     }
     .frameform button {
-        margin-left: 164px;
+        margin-left: 191px;
     }
     #text1 p {
         font-size: 15px;
@@ -1469,7 +1485,7 @@
         margin-top: 30px;
     }
     .statisticssection {
-        padding: 60px 24px;
+        padding: 20px 15px;
     }
     .statistics-content{
         padding-left: 0px;
@@ -1482,10 +1498,12 @@
         font-size:35px;
         line-height: 45px;
         padding-left: 0px;
+        text-align: center;
     }
     #statistics-content2 p {
-        width: 320px;
-        padding-left: 1px;
+        width: 330px;
+        padding-left: 0px;
+        text-align: center;
     }
     .statsrow {
         grid-template-columns: repeat(1, 189px);
@@ -1508,7 +1526,7 @@
     }
     .framesection {
         width: 100%;
-        padding: 20px 1px;
+        padding: 20px 15px;
     }
     #frame-content {
         width:95%;
@@ -1539,14 +1557,17 @@
     .event-content p::after {
         width: 278px;
     }
+    .Eventsection {
+        width: 100%;
+    }
     .Eventsection p {
         padding-left: 50px;
     }
     .event-grp {
-        padding-left: 16px;
+        padding-left: 0px;
     }
     .event-grp1 {
-        width: 97%;
+        width: 100%;
         margin-left: 0px;
     }
     .event-date1 h3{
@@ -1581,7 +1602,7 @@
         width: 0px;
     }
     .event-grp2 {
-        width: 97%;
+        width: 100%;
         margin-left:0px;
     }
     .event-date2 h3{
@@ -1619,31 +1640,37 @@
         font-size: 40px;
         line-height: 50px;
     }
+    .whatwedo {
+        padding: 20px 15px;
+    }
     .whatsec-title {
         padding-left: 7px;
     }
     .whatwedo-header{
-        padding-left: 11px;
+        padding: 11px 15px;
     }
     .whatsec-para p{
         font-size: 41px;
         line-height: 51px; 
-        width: 419px;
+        text-align: center;
+        width: 317px;
     }
     .whatsec-content p {
-        width: 79%;
+        width: 100%;
+        text-align: center;
     }
     .header-img img {
-        width: 314px;
-        margin-left: 4px;
+        width: 321px;
+        /* margin-left: 4px; */
         height: 267px;
     }
     .title h3{
         font-size: 33px;
         line-height: 43px;
-        width: 308px;
-        padding-left: 1px;
-        padding-top: 35px;
+        width: 305px;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 10px;
     }
     .features {
         grid-template-columns: repeat(1, 1fr);
@@ -1655,8 +1682,9 @@
         font-size: 15px;
     }
     .projectsec-content h3 {
-        margin-left: 12px;
-        width: 340px;
+        margin-left: 0px;
+        width: 335px;
+        text-align: center;
         font-size: 36px;
         line-height: 46px;
         padding-top: 30px;
@@ -1672,8 +1700,9 @@
         padding-left:0px;
     }
     .contact-text p {
-        padding-left: 13px;
-        width: 288px;
+        padding-left: 0px;
+        width: 264px;
+        text-align: center;
     }
     .Contactdetails {
         padding-left: 92px;
@@ -1684,7 +1713,7 @@
         padding-top: 20px;
     }
     .form-field {
-        padding-left: 28px;
+        padding: 17px 15px;
     }
     .form-field p {
         width: 303px;
@@ -1693,8 +1722,11 @@
     .form-field input {
         width: 95%;
     }
+    .contact-msg {
+        padding: 19px 15px;
+    }
     textarea {
-        width: 300px;
+        width: 100%;
     }
     .contact-btn {
         padding-left: 130px;
@@ -1709,7 +1741,10 @@
         height: 33px;
         margin-top:17px;
     }
-    #menu ul {
+    .contact-sec {
+        padding: 51px 15px;
+    }
+    .menu ul {
         padding-left: 6px;
     }
     #name img {
@@ -1737,26 +1772,40 @@
     .whatsec-title h3 {
         width: 249px;
     }
-    .whatsec-para p {
-        width: 321px;
-    }
     .contactsec-title h3 {
         width: 219px;
     }
     /* .btn1 {
         margin-left: 30px;
     } */
-    #menu{
-        display:none;
+    .menu, .close{
+        display:block;
     } 
     .menu-icon{
         display: inline-flex;
         padding-top: 12px;
     }
-    #menu ul li{
-        display: flex;
-        flex-wrap: wrap; 
-        font-size: 10px; 
+    .menu{
+        width: 350px;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: rgb(13, 80, 66);  
+    }
+    .menu.active{
+        top: -459px;
+    }
+    .menu ul{
+        margin-top: 60px;
+        display: grid;
+        gap: 30px;
+        text-align: center;
+        
+    }
+    .menu ul li a{
+        font-size: 17px;
+        color: #fff;
     }
     .about-page{
         overflow-x: hidden;
@@ -1764,4 +1813,5 @@
     .features h3 {
         padding-left: 3px;
     }
+    
 }
