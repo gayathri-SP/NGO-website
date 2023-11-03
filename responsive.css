@@ -1,1832 +1,305 @@
+
 @media screen and (max-width:1440px){
-    .topbar{
-        justify-content: space-between;
-    }
-    #name img {
-        margin-left: 36px;
-    }
-    .name img{
-        margin-left: 20px;
-    }
-    .menu ul {
-        
-        padding-top: 10px;
-    }
-    .menu ul li {
-        padding-left: 20px;
-    }
-    #btn1{
-        padding-right: 30px;
-    }
-    #para p{
-        padding-left:69px ;
-        width:690px ;
-    }
-    .btn2 {
-        padding-left: 30px;
-    }
-    .sub-topbar #name img {
-        margin-left: 36px;
-    }
-    .content{
-        padding: 63px 40px 10px 35px;
-    }
-    #line img {
-        width:753px;
-    }
-    .page2{ 
-        padding: 62px 34px 60px 20px;
-        object-fit: contain;
-    }
-    #about p{
-        margin-left: 43px;
-    }
-    .aboutsection {
-        column-gap: 40px;
-        padding-left: 40px;
-    }
-    .abtsectionimage img {
-        /* margin-left: 20px; */
-        width: 429px;
-        height: 517px;
-        /* padding-right: 60px;
-        padding-bottom: 68px; */
-    }
-    .section3{
-        padding-left: 30px;
-    }
-    /* .logos {
-        column-gap: 60px;
-    }
-    #logo1 img {
-        padding-left: 20px;
-    } */
-    .right img {
-        height: 624px;
-        width: 542px;
-        margin-top: 30px;
-        object-fit: contain;
-    }
-    .servicesection{
-        padding: 80px 55px 60px 55px;
-    }
-    .service{
-        column-gap: 50px;
-    }
-    .what-projectsec{
-        padding: 100px;
-    }
-    /* .framesection{
-        height: 170vh;
-    } */
-    #frame-content {
-        width: 100%;
-        height: 384px;
-        /* margin-left: 90px; */
-    }
-    #frame-content p {
-        padding-top: 47px;
-        padding-left: 116px;
-        width: 1052px;
-    }
-    .Eventsection p{
-        padding-left: 80px;
-    }
-    .event-content p::after{
-        width: 880px;
-    }
-    #event1 p{
-        width: 355px;
-        padding-top: 40px;
-        padding-bottom: 10px;
-    }
-    #event2 p{
-        width: 358px;
-        padding-top: 40px;
-        padding-bottom: 10px;
-    }
-    .event-grp1{
-        width:562px ;
-    }
-    .event-grp2{
-        width:580px ;
-    }
-    .event-date1 {
-        margin-left: 40px;
-    }
-    .event-date2{
-        margin-left: 40px;
-    }
-    #event1::after{
-        margin-left: 0px;
-        width: 105px;
-    }
-    #event2::after{
-        margin-left: 5px;
-    }
-    .event-grp{
-        padding-left: 40px;
-        padding-right: 0px;
-    }
-    .event-grp::after{
-        margin-left: 40px;
-    }
-    /* .footerform {
-        padding-left: 62px;
-    }
-    .footersection{
-        column-gap: 73px;
-    }
-    .footersection{
-        padding-top: 60px;
-    } */
-    .projectsec-bgimg{
-        gap: 30px;
-    }
-    .header-bg-img {
-        top: 40%;
-    }
-    .header-frames{
-        padding-left: 5%;
-    }
-    .frame-left p{
-        width: 560px;
-    }
-    .frames {
-        padding: 0px 48px;
-    }
-    .frame18 h3{
-        padding-top: 0px;
-    }
-    .frame19 h3{
-        padding-top: 0px;
-    }
-    .abt-page3{
-        padding-left: 30px;
-    }
-    .award-heading {
-        padding-top: 67.5px;
-    }
-    .award-row{
-        column-gap: 100px;
-        padding-bottom: 50px;
-    }
-    .award-row img {
-        width: 158px;
-        height: 154px;
-    }
-    /* .award-section{
-        height: 101vh;
-    }
-    .journaysection{
-        height: 150vh;
-    } */
-    .journay-img img{
-        object-fit: contain;
-        padding-right: 90px;
-        padding-left: 30px;
-    }
-    .journay-content p{
-        padding-top: 14px;
-    }
-    .team-sec-text p{
-        width: 916px;
-        padding-left: 393px;
-    }
-    /* .team-section{
-        height: 330vh;
-    } */
-    .team-members{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .members img{
-        width: 250px;
-        height: 300px;
-    }
-    .header-frame{
-        column-gap: 9px;
-    }
-    .frame-left {
-        padding-left: 30px;
-    }
-    /* .whatwedo-section{
-        height: 100vh;
-    } */
-    .whatsec-para p{
-      width: 560px;
-    }
-    .whatwedo-header{
-        padding-top: 20px;
-        padding-left: 30px;
-    }
-    .whatsec-content p {
-        width:562px;
-    }
-    .header-img img{
-        width: 460px;
-        height: 362px;
-        margin-top: 42px;
-    }
-    .whatwedo{
-        /* height: 100vh; */
-        width: 100%;
-    }
-    .features{
-        grid-template-columns: repeat(3, 400px);
-    }
-    .features h3{
-        padding-left: 24px; 
-    }
-    .features p{
-        padding-left: 73px;
-        width: 392px;
-    }
-    /* .what-projectsec{
-        height: 180vh;
-    } */
-    /* .contact-sec{
-        height: 110vh;
-    } */
-    .contact-header{
-        column-gap: 144px;  
-    }
-    .contact-text h2 {
-        padding-left: 63px;
-    }
-    .contact-text p {
-        padding-left: 63px;
-    }
-    .form-field {
-        padding-left: 189px;
-        column-gap: 294px;
-    }
-    .form-field p{
-        width:377px;
-    }
-    .contact-msg {
-        padding-left: 293px;
-    }
-    textarea {
-        width: 787px;
-    }
-    .contact-map iframe {
-        width: 1168px;
-        /* height: 500px; */
-        padding-left: 37px;
-        /* padding-top: 160px; */
-    }
-    .statisticssection {
-        padding-left: 42px;
-    }
-    .statistics-chart p{
-        padding-left: 120px;
-    }
-    .menu-icon{
-        display: none;
-    }
-    .contact-sec {
-        padding: 127px 82px;
-    }
-    .menu-icon{
-        display: none;
-    }
-    #menu ul li a:hover{
-        color:orangered;
-    }
-    .time-icon{
-        display:none;
-    }
-}
-@media screen and (max-width:1200px)
-{
-    /* .mid{
-        height: 100vh;
-    } */
-    #para p{
-        padding-top: 70px;
-        padding-left: 60px;
-        font-size: 48px;
-        line-height: 58px;
-    }
-    #line img{
-        width:507px ;
-    }
-    /* .page2{
-        height: 140vh;
-    } */
-    #about{
-        font-size: 18px;
-        line-height: 25px;
-        letter-spacing: 2px;
-    }
-    #about p{
-        margin-left: 59px;
-    }
-    #aboutp1 {
-        padding-top: 25px;
-        font-family: "Nunito-Bold";
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 40px;
-    }
-    #aboutp2{
-        font-size: 16px;
-        line-height: 26px;
-        width:523px ;
-    }
-    .aboutsection {
-        column-gap: 47px;
-        padding-left: 10px;
-    }
-    .abtsectionimage img {
-        width: 369px;
-        height: 517px;
-        padding-right:0px;
-    }
-    #logo1 img{
-      /* padding-left: 20px; */
-      width: 100px;
-    }
-    /* .logos {
-        column-gap: 35px;
-    } */
-    #text1st p{
-        margin-left: 36px;
-        font-size: 17px;
-        line-height: 27px;
-        letter-spacing: 2px;
-    }
-    /* .servicesection{
-        height: 185vh;
-    } */
-    #sectionleft{
-        font-size: 38px;
-        line-height: 48px;
-        width: 481px;
-    }
-    #servicepara p{
-        width: 450px;
-    }
-    .servicefunction h5{
-        font-size: 17px;
-        padding-top:15px;
-    }
-    .servicefunction p{
-        padding-top: 5px;
-        padding-left: 50px;
-    }
-    #func1 h5::before {
-        margin-right: 20px;
-    }
-    #func2 h5::before {
-        margin-right: 20px;
-    }
-    #func3 h5::before {
-        margin-right: 20px;
-    }
-    #func4 h5::before {
-        margin-right: 20px;
-    }
-    .right img {
-        height: 558px;
-        width: 100%;
-        /* padding-right: 40px; */
-        padding-top: 50px;
-        object-fit: contain;
-    }
-    .what-projectsec {
-        padding: 80px;
-    }
-    #projectcontent{
-        font-size: 35px;
-        line-height: 45px;
-    }
-    .projectsec-content h3{
-        margin-left: 95px;
-    }
-    .projectsec-bgimg{
-        column-gap: 20px;
-    
-    }
-    .projectsection-bgimg1{
-        width: 310px;
-        height: 374px; 
-    }
-    .projectsection-bgimg2{
-        width: 310px;
-        height: 374px; 
-    }
-    .projectsection-bgimg3{
-        width: 310px;
-        height: 374px;
-    }
-    .projectsec-bgimg button{
-        margin: 42px 40px 5px 20px;
-    }
-    .projectsection-bgimg2 button {
-        margin-top: 85px;
-    }
-    .statisticssection {
-        padding: 60px 40px;
-    }
-    .statistics-para{
-        font-size: 40px;
-        line-height: 50px;
-        width: 594px;
-        padding-left: 7px;
-    }
-    .statsrow{
-        row-gap: 20px;
-        grid-template-columns: repeat(3, 35%);
-        padding-left:14px;
-    }
-   /* .statisticssection{
-        height:110vh ;
-    } */
-    .statistics-chart {
-        /* margin-left: 115px;
-        margin-right: 30px; */
-        width: 327px;
-        height: 300px;
-    }
-    #statistics-content2 p{
-        width: 629px;
-    }
-    .statistics-chart p{
-        padding-left: 90px;
-        padding-top:128px;
-    }
-    /* .framesection{
-        height:240vh;
-    } */
-    #frame-content{
-        width: 100%;
-        height: 351px;
-        object-fit: contain;
-        /* margin-left: 68px; */
-    }
-    #frame-content p{
-        font-size: 40px;
-        line-height: 50px;
-        padding-top: 50px;
-        padding-left: 70px;
-        width: 891px;
-    }
-    .framebtn{
-        margin-left: 340px;
-    }
-    .frameform form{
-        padding-top: 30px;
-    }
-    .frameform button{
-        margin-left: 162px;
-    }
-    .footersection{
-        padding: 80px 29px 30px 20px;
-    }
-    .footerform p{
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .footerframe p{
-        font-size: 23px;
-        line-height: 33px;
-    }
-    /* .footersection{
-        height:90vh;
-    } */
-    .frame-left {
-        padding-left: 55px;
-    }
-    .frame-left p{
-        font-size: 45px;
-        line-height: 55px;
-        width: 519px;
-    }
-    .frame-content p{
-        font-size: 18px;
-        line-height: 28px;
-        width:390px;
-        padding-right: 50px;
-    }
-    .frame-para p{
-        width: 400px;
-        padding-right: 50px;
-    }
-    .frame19{
-        padding-top:0px;
-    }
-    .frame18{
-        padding-top:0px;
-    }
-    .frame18 h3 {
-        padding-top:0px;
-    }
-    .frame19 h3 {
-        padding-top:0px;
-    }
-    .header-frames{
-        padding-top: 0px;
-    }
-    .event-grp{
-        flex-direction: column;
-        row-gap: 20px;
-    }
-    .event-grp1{
-        
-        width: 90%;
-    }
-    .event-date1{
-        padding-left: 140px;
-    }
-    #event1{
-        padding-left: 20px;
-    }
-    #event1::after{
-        margin-left: 5px;
-    }
-    .event-grp2{
-        width: 90%;
-    }
-    .event-date2{
-        padding-left: 140px;
-    }
-    #event2{
-        padding-left: 20px;
-    }
-    .frames {
-        padding-left: 12px;
-        column-gap: 20px;
-    }
-    .frame18-content p{
-        width:422px ;
-    }
-    .frame19-content p{
-        width:373px ;
-    }
-    .frame18-para p{
-        width: 453px;
-    }
-    .frame19-para p{
-        width: 453px;
-    }
-    .award-row img{
-        width: 131px;
-        height: 125px;
-    }
-    .journay-frame{
-        width: 50%;
-    }
-    .journay-img{
-        width: 50%; 
-    }
-    .journay-img img{
-        width:453px;
-        height: 400px;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    .journay-content p{
-        padding-left: 20px;
-    }
-    .journay-para p{
-        padding-left: 20px;
-        width: 384px;
-        padding-top: 6px;
-    }
-    .journaysection {
-        padding: 143px 33px 11px 50px;
-    }
-    .journay-stat{
-        padding-left: 20px;
-        padding-top: 20px;
-    
-    }
-    .journay-title h5{
-        padding-left: 28px;
-        padding-top: 60px;
-    }
-    /* .team-section {
-        height: 370vh;
-    } */
-    /* .team-sec-text p {
-        width: 762px;
-        padding-left: 345px
-    } */
-    .team-members {
-       display: flex;
-       flex-wrap: wrap;
-       column-gap: 29px;
-       row-gap: 78px;
-    }
-    .members img {
-        width: 242px;
-        height: 266px;
-    }
-    .whatsec-content p {
-        width: 407px;
-    }
-    .header-img img {
-        width: 384px;
-        height: 365px;
-        margin-top: 35px;
-    }
-    .whatsec-para p {
-        width: 504px;
-    }
-    .title h3{
-        width: 650px;
-    }
-    .features {
-        grid-template-columns: repeat(2, 400px);
-        padding-left:50px;
-    }
-    /* .whatwedo{
-        height: 180vh;
-    } 
-    .whatwedo-section{
-        height: 110vh;
-    } */
-    #menu ul li{
-        font-size: 16px;
-    }
-    .contactsec-title {
-        padding-left: 21px;
-    }
-    .contact-header {
-        column-gap: 120px;
-    }
-    /* .contact-sec {
-        height: 125vh;
-    } */
-    .contact-text p{
-        padding-left: 55px;
-        width: 367px;
-    }
-    .contact-text h2 {
-        padding-left: 56px;
-    }
-    .form-field input {
-        width: 365px;
-    }
-    .form-field{
-        /* display: flex;
-        flex-direction:column; */
-        grid-template-columns: repeat(2, 115px);
-        row-gap: 10px;
-        padding-top: 20px;
-        padding-left: 144px;
-        column-gap: 294px;
-    }
-    .form-field p{
-        padding-top: 21px;
-        padding-bottom: 36px;
-    }
-    /* {
-        height: 160vh;
-    }.contact-form */
-    .contact-msg {
-        padding-left: 131px;
-    }
-    .contact-btn{
-        padding-left: 400px;
-    }
-    /* .contact-map{
-        height: 118vh;
-    } */
-    .address3 p {
-        width: 228px;
-    }
-    .contact-map iframe {
-        width: 925px;
-        padding-left: 0px;
-    }
-    .menu-icon{
-        display: none;
-    }
-    .contact-sec {
-        padding: 127px 66px;
-    }
-    .frameform input {
-        width: 300px;
-    }
-    .event-content p::after {
-        width: 100%;
-        margin-left: 0px;
-    }
-    .projectsec-bgimg p{
-        padding: 50px 0px 0 9px;
-        width: 300px;
-    }
-}
-@media screen  and (max-width:991px)
-{
-    .menu ul li {
-        font-size: 13px;
-        padding-left: 9px;
-    } 
-    .menu ul{
-        padding-left: 9px;
-    } 
-    #name img {
-        width: 100px;
+    .section-one {
+        padding: 45px 33px 0px;
+    }
+    .nav-menu ul li {
+        margin-left: 35px;
+    }
+    .company-logos img {
+        margin: 15px 55px;
+        width: 113px;
         height: 52px;
     }
-    #btn1 {
-        padding-top: 9px;
+    .Branding-Section {
+        padding: 97px 50px;
+        /* justify-content: space-between; */
     }
-    #para p {
-        padding-top: 70px;
-        padding-left: 30px;
-        font-size: 40px;
-        line-height: 50px;
-        width: 578px;
+    .brand-heading{
+        width: 431px;
     }
-    .content {
-        padding: 50px 0 17px;
-        /* padding-top: 80px;
-        padding-left: 10px; */
+    .customer-section {
+        padding: 40px 50px;
     }
-    #text1 p{
-        font-size: 15px;
-        /* width: 200px; */
+    .Testimonial-Section {
+        padding: 50px 101px;
     }
-    #text2 p{
-        font-size: 15px;
-        /* width:150px; */
+    .Testimonial{
+        width: 311px;
     }
-    #line img{
-        /* padding-left: 11px; */
-        width: 400px;
+    .Testimonial p{
+        width: 296px;
     }
-    #click button {
-        margin-left: 4px;
+    .Contact-Section {
+        padding: 50px 70px;
     }
-    /* .page2{
-        height: 1050px;
-    } */
-    .aboutsection {
-        display: flex;
-        flex-direction:column;
-        row-gap:57px;
-        padding-left: 125px;
-    }
-    #about p {
-        margin-left: 125px;
-    }
-    #abtbtn{
-        margin-left: 178px;
-    }
-    .logos{
-        display: grid;
-       grid-template-columns: repeat(3,206px);
-       row-gap: 30px;
-       padding-top: 21px;
-    }
-    #logo1 img {
-        padding-left: 20px;
-        width: 134px;
-        height: 24px;
-    }
-    /* .servicesection{
-        height: 1370px;
-    } */
-    .service{
-        flex-direction: column-reverse;
-        /* flex-direction: column; */
-        padding-left: 0px;
-    }
-    .statisticsflex {
-        display: flex;
-        flex-direction: column;
-    }
-    .abtsectionimage img{
-        width: 496px;
-        height: 511px;
-    }
-    #text1st p {
-        margin-left: 155px;
-    }
-    .projectsec-bgimg{
-        display: flex;
-        flex-wrap:wrap;
-        /* grid-template-columns: repeat(2, 328px); */
-    }
-    .projectsection {
-        /* height:1168px; */
-        margin-left: 0px;
-    }
-    .projectsection-bgimg3 {
-        /* margin-left: 223px; */
-        margin-top: 38px;
-    }
-    .statisticssection {
-        padding: 60px 100px;
-    }
-    .statistics-chart {
-        margin-left: 145px;
-        margin-top: 50px;
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-    }
-    .statistics-para{
-        width: 583px;
-    }
-    .statistics-content{
-        padding-left: 57px;
-        padding-top: 30px;
-    }
-    #statistics-content2 p {
-        width: 542px;
-    }
-    /* .statistics-chart {
-        margin-left: 68px;
-    } */
-    #statistics-content2 p {
-        padding-left:2px;
-    }
-    #frame-content {
-        width: 100%;
-        height: 300px;
-    }
-    #frame-content p {
-        font-size: 37px;
-        line-height: 47px;
-        padding-top: 7px;
-        padding-left: 60px;
-        width: 660px;
-    }
-    .framebtn {
-        margin-left: 201px;
-    }
-    .event-date1 {
-        margin-left: 24px;
-        padding-left: 0px;
-    }
-    #event1 p {
-        width: 346px;
-        padding-top: 45px;
-        padding-left: 2px;
-    }
-    .event-date2 {
-        margin-left: 24px;
-        padding-left: 0px;
-    }
-    #event2 p {
-        width: 369px;
-        padding-top: 45px;
-        padding-left: 2px;
-    }
-    #event2 {
-        display: flex;
-        column-gap: 0px;
-    }
-    .event-grp2 p {
-        margin-left: 10px;
-    }
-    .footersection {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-    } 
-    .statsrow {
-        grid-template-columns: repeat(2, 215px);
-        row-gap: 20px;
-    }
-    .statistics-chart p {
-        padding-left: 97px;
-    }
-    /* .statistics-chart {
-        margin-left: 157px;
-        margin-top: 62px;
-    } */
-    #event2::after{
-        margin-left:4px;
-    }
-    .frame-para p {
-        width: 346px;
-        padding-right: 0px;
-    }
-    .frame-left {
-        padding-left: 41px;
-    }
-    .header-bg-img {
-        top: 34%;
-    }
-    .frame-left p{
-        width: 342px;
-    }
-    .frame-content p{
-        width: 355px;
-        padding-right: 0px;
-    }
-    .headerbg {
-        height: 310px;
-    }
-    .header-bg-pink {
-        height: 141px;
-    }
-    .frame18 h3 {
-        padding-left: 150px;
-    }
-    .frame19 h3 {
-        padding-left: 150px;
-    }
-    .frames {
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-        padding-left:119px;
-    }
-    .frame18-para p{
-        padding-bottom: 0px;
-    }
-    .frame19 h3 {
-        padding-top: 8px;
-    }
-    .frame19 {
-        padding-top: 10px;
-    }
-    .frame18-content p {
-        width: 505px;
-    }
-    .frame19-content p {
-        width: 505px;
-    }
-    .frame19-para p {
-        width: 453px;
-        padding-bottom: 50px;
-    }
-    .award-row {
-        display: grid;
-        grid-template-columns: repeat(2, 156px);
-        row-gap: 10px;
-    }
-    /* .award-section{
-        height: 800px;
-    } */
-    .award-row img {
-        width: 157px;
-        height: 134px;
-    }
-    .journay{
-        display: flex;
-        flex-direction:column-reverse;
-    }
-    .journay-img img {
-        padding-top:5px;
-        margin-left: 110px;
-    }
-    /* .journaysection{
-        height: 940px;
-    } */
-    .journay-content p {
-        padding-left: 99px;
-        width:600px;
-    }
-    .journay-title {
-        margin-left: 221px;
-        width: 400px;
-    }
-    .journay-title h5{
-        padding-top: 10px;
-    }
-    .journay-para p {
-        padding-left: 117px;
-        width: 610px;
-    }
-    .journay-stat {
-        padding-left: 202px;
-    }
-    .journay-stat {
-        padding-bottom:42px;
-    }
-    .team-sec-text p {
-        width: 671px;
-        padding-left: 153px;
-    }
-    /* .team-section{
-        height:2157px;
-    } */
-    .team-members {
-        grid-template-columns: repeat(2, 300px);
-    }
-    .team-member7 {
-        margin-left: 0px;
-    }
-    .team-member8 {
-        margin-left: 0px;
-    }
-    #frame-content p {
-        font-size: 32px;
-        line-height: 42px;
-        padding-top: 30px;
-        padding-left: 72px;
-        width: 652px;
-    }
-    .event-content p::after {
-        width: 600px;
-        margin-left: 0px;
-    }
-    /* .framesection {
-        height: 230vh;
-    } */
-    /* .footersection {
-        height: 126vh;
-        column-gap: 10px;
-    } */
-    .frameform input{
-        width: 336px;
-        padding: 11px 20px;
-    }
-    .whatwedo-header{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    /* .whatwedo-section {
-        height: 909px;
-    } */
-    .whatsec-title {
-        padding-left: 74px;
-    }
-    .header-img img {
-        width: 420px;
-    }
-    .title h3{
-        padding-left: 22px;
-    }
-    .features p{
-        width: 309px; 
-    }
-    .features{
-        grid-template-columns: repeat(2, 348px);
-        padding-left:0px;
-        padding-top: 20px;
-    }
-    .features h3{
-        padding-top: 30px;
-    }
-    .projectsec-content h3{
-        margin-left: 55px; 
-    }
-    /* .projectsection-bgimg2{
-        margin-top: 30px;
-    } */
-    /* .what-projectsec {
-        height: 282vh;
-    } */
-    #frame-content p{
-        padding-left: 41px;
-    }
-    .frame-btn2 button{
-        font-size: 14px;
-    }
-    .frame-btn1 button{
-        font-size: 14px;
-    }
-    .frameform button{
-        padding:7px 36.5px; 
-        margin-left: 196px;
-    }
-    /* .contact-sec {
-        height: 565px;
-    } */
-    .contact-header{
-        column-gap: 77px;
-    }
-    .contactsec-title {
-        padding-left:30px;
-    }
-    .contact-text h2{
-        width:390px;
-        font-size: 50px;
-    }
-    .address1 span {
-        margin-left: 11px;
-    }
-    .Contactdetails h6{
-        padding-top:24px;
-    }
-    .form-field {
-        display: flex;
-        flex-direction: column;
-        padding-left: 222px;
-    }
-    textarea {
-        width:100%;
-    }
-    .contact-msg {
-        padding: 30px 20px;
-    }
-    .contact-btn {
-        padding-bottom: 30px;
-        padding-left: 307px;
-    }
-    .contact-map iframe {
-        width: 100%;
-        height: 372px;
-        padding-top: 0px;
-        margin-left: 0px;
-    }
-    .name img {
-        /* margin-left: 26px; 
-        width: 708px;
-        height: 372px;
-        margin-top: 14px; */
-        width: 121px;
-        height: 32px;
-        margin-top: 20px;
-    }
-    .menu-icon{
-        display:none;
-    }
-    .projectsec-bgimg p {
-        width: 300px;
-    }
-    .service {
-        column-gap: 0px;
+    .footer-section {
+        padding: 70px 40px;
     }
 }
-@media screen  and (max-width:650px){
-    #about p {
-        margin-left: -5px;
-    }
-    .aboutsection{
-        padding-left: 0px;
-        row-gap:28px;
-    }
-    #aboutp1 {
-        text-align: center;
-        width: 100%;
-    }
-    #aboutp2{
-        width: 100%;
-        text-align: center;
-        padding-bottom: 30px;
-    }
-    #abtbtn {
-        display: flex;
-    align-items: center;
-    margin: auto;
-    }
-    .abtsectionimage img {
-        width: 100%;
-        height: 430px;
-    }
-    #text1st p {
-        margin-left: 36px;
-    }   
-    .servicesection{
-        padding: 30px 15px;
-    } 
-    #sectionleft {
-        font-size: 30px;
-        line-height: 40px;
-        width: 100%;
-        text-align: center;
-    }
-    #para p {
-        width: 100%;
-    }
-    #servicepara p {
-        width: 100%;
-        text-align: center;
-    }
-    #servicepara{
-        padding-left:6px;
-    }
-    /* .servicesection {
-        height: 1212px;
-    } */
-    .service{
-        padding-left: 0px; 
-    }
-    .servicefunction p {
-        padding-top: 5px;
-        width: 100%;
-        font-size: 14px;
-    }
-    .servicefunction {
-        padding-left: 5px;
-    }
-    #projectcontent p{
-        font-size: 40px;
-        line-height: 50px;
-        text-align: center;
-        width: 100%;
-    }
-    #projecttitle{
-        width: 309px;
-        font-size: 16px;
-      
-    }
-    #projecttitle::before{
-        margin-left: 4px;
-        width:41px ;
-    }
-    #projectcontent{
-        padding-left: 3px;
-    }
-    .projectsection {
-        padding: 30px 15px;
-    }
-    .right img {
-        height: 329px;
-        width: 100%;
-    }
-    .page2 {
-        padding: 30px 15px;
-    }
-    .header-frame{
-        padding: 65px 15px;
-        display: flex;
+@media screen and (max-width:1200px) {
+    .section-one {
+        padding: 45px 21px 0px 20px;
         flex-wrap: wrap;
     }
-    /* .headersection{
-        height: 800px;
-    } */
-    .frame-left p {
-        width:100%;
+    .main-heading {
+        font-size: 62px;
+        width: 520px;
     }
-    .frame-left {
-        padding-left: 0px;
-        text-align: center;
-        width: 253px;
+    .hero-sec-btn {
+        padding: 14px 20px;
     }
-    .frame-content p{
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 20px;
-        text-align: center;
+    .Branding-Section {
+        padding: 74px 30px;
+        gap:40px;
     }
-    .frame-para p {
-        width:100%;
-        text-align: center;
-        padding-left: 0px;
-        padding-top: 20px;
-        padding-right: 0px;
+    .customer-section {
+        padding: 20px 30px;
     }
-    .frame19-para p{
-        padding-right: 0px;
+    .cust-sec-heading{
+        width: 485px;
     }
-    .header-frames{
-        padding: 13px 15px;
+    .Testimonial-Section {
+        padding: 50px 45px;
     }
-    .header-bg-pink {
-        height: 67px;
+    .Testimonial-sec {
+        gap: 10px;
     }
-    .header-bg-img {
-        top: 20%;
+}
+@media screen and (max-width:991px) {
+    .section-one {
+        padding: 45px 10px 0px 62px;
     }
-    .headerbg {
-        height: 127px;
-    }
-    .frame18 {
-        padding-top: 13px;
-        padding-left: 0px;
-    }
-    .frames{
-        padding: 0px;
-    }
-    .frame18 h3 {
-        padding-top: 14px;
-        padding-left: 0px;
-        text-align: center;
-    }
-    .frame18-para p {
-        width: 100%;
-        text-align: center;
-    }   
-    .frame19-para p {
-        width: 100%;
-        text-align: center;
-    } 
-    .frame18-content p {
-        width: 100%;
-        font-size: 24px;
-        line-height: 34px;
-        text-align: center;
-    }
-    .frame19 h3 {
-        padding-top: 14px;
-        padding-left: 0px;
-        text-align: center;
-    }
-    .frame19-content p {
-        width: 100%;
-        font-size: 24px;
-        line-height: 34px;
-        text-align: center;
-    }
-    .section3 {
-        padding: 10px 10px;
-    }
-    .logos{
-        /* display: flex;
-        flex-wrap: wrap; */
-        grid-template-columns: repeat(2,128px);
-        /* column-gap: 8px; */
-        padding-top: 11px;
-    }
-    #p3text img {
-        width: 85%;
-        margin-left: 26px;
-        padding-top: 15px;
-    }
-    .abt-page3 {
-        padding-left: 0px;
-    }
-    #logo1 img {
-        width: 120px;
-        height: 20px;
-        padding-left: 0px;
-    }
-    /* .award-section {
-        height: 1231px;
-    } */
-    .award-heading h3 {
-        padding-left: 9px;
-        font-size: 42px;
-        line-height: 52px;
-    }
-    .award-heading {
-        padding-top:40px;
-    }
-    .award-row{
-        display: flex;
+    .Branding-Section {
+        padding: 94px 6px 10px 11px;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
-        padding: 46px 0px;
-        row-gap: 25px;
+        align-items: center;
     }
-    .award-row p {
-        padding-top: 6px;
+    .customer-section {
+        flex-wrap: wrap;
+        padding: 37px 9px 0px 35px;
     }
-    .team-members img{
-        width: 256px;
-        height: 286px;
+    .cust-sec-img img {
+        width: 437px;
+        height: 450px;
     }
-    /* .team-section {
-        height:3589px;
-    } */
-    .team-img{
-        column-gap: 12px;
+    .brand-heading{
+        width: 431px;
     }
-    .team-img img {
-        width: 13px;
-        height: 13px;
+    .company-logos img {
+        width: 105px;
+        height: 45px;
+        margin: 11px 23px;
     }
-    .team-members {
-        row-gap: 46px;
+    .company-logos {
+        width: 615px;
+        height: 75px;
     }
-    .journaysection {
-        padding: 54px 9px 11px 13px;
-    }
-    .journay-img img{
-        width: 306px;
-        height: 285px;
-        margin-left: 16px;
-        padding-right: 0px;
-        padding-left: 0px;
-    }
-    .journay-title {
-        width: 300px;
-        margin-left: 45px;
-    }
-    .journay-content p {
-        padding-left: 10px;
-        width: 299px;
-        font-size: 41px;
-        line-height: 51px;
-    }
-    .journay-para p {
-        width: 318px;
-        padding-left: 5px;
-    }
-    .journay-stat p{
-        font-size: 22px;
-        line-height: 25px;
-    }
-    .journay-stat {
-        padding-left: 41px;
-    }
-    #frame-content p {
-        font-size: 15px;
-        line-height: 23px;
-        padding-left: 20px;
-        width: 290px;
-        padding-top: 5px;
-    }
-    .team-sec-text p {
-        width:100%;
-        padding-left: 9px;
-    }
-    .team-sec-text h4 {
-        padding-top: 10px;
-        padding-left: 10px;
-        font-size: 40px;
-        line-height: 50px;
-    }
-    #p3text p{
-        padding-left:24px;
-    }
-    .what-projectsec {
-        padding:  20px 15px;
-    }
-    /* .projectsection {
-        height: 1676px;
-    } */
-    .projectsection-bgimg3 {
-        margin-left: 0px;
-    }
-    .projectsec-bgimg {
-        margin-top: 37px;
-        margin-right: 0px;
-    }
-    .projectsec-bgimg p {
-        width: 100%;
-    }
-    .footersection {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 12px;
-        text-align: left;
-        padding: 80px 15px 30px 15px;
-    }
-    .footersection h4 {
-        padding-top: 40px;
-    }
-    .footerform {
-        text-align: left;
-    }
-    .footerframe{
-        padding-left: 0px;
-        padding-top: 43px;
-    }
-    .frameform input {
-        width: 314px;
-    }
-    .frameform button {
-        margin-left: 191px;
-    }
-    #text1 p {
-        font-size: 15px;
-        /* width: 131px; */
-        padding-left: 35px;
-    }
-    /* #text2 p {
-        width: 130px;
-    } */
-    #line img {
-        padding-left: 0px;
-        width:120px;
-    }
-    /* #text2 p {
-        font-size:
-    } */
-    #about p {
-        margin-left: 33px;
-    }
-    #projectcontent p {
-        font-size: 37px;
-        line-height: 47px;
-        width: 100%;
-    }
-    .projectsection-bgimg2{
-        margin-top: 30px;
-    }
-    .projectsection-bgimg3{
-        margin-top: 30px;
-    }
-    .statisticssection {
-        padding: 20px 15px;
-    }
-    .statistics-content{
-        padding-left: 0px;
-    }
-    .statistics-para {
-        width:100%;
-        padding-left: 0px;
-    }
-    .statistics-para p{
-        font-size:35px;
-        line-height: 45px;
-        padding-left: 0px;
-        text-align: center;
-    }
-    #statistics-content2 p {
-        width: 100%;
-        padding-left: 0px;
-        text-align: center;
-    }
-    .statsrow {
-        grid-template-columns: repeat(1, 189px);
-        padding-left: 62px;
-    }
-    .statsrow p{
-        font-size: 14px;
-        line-height: 24px;
-    }
-    .statistics-chart {
-        width: 100%;
-        height: 299px;
-        margin-left: 0px;
-        margin-top: 26px;
-    }
-    .statistics-chart p{
-        padding-left: 132px;
-        font-size: 21px;
-        padding-top: 128px;
-    }
-    .framesection {
-        width: 100%;
-        padding: 20px 15px;
-    }
-    #frame-content {
-        width:95%;
-        height: 100%;
-        margin: 10px 10px 0px 10px;
-        /* padding-left: 4px;
-        padding-top: 14px;  */
-    }
-    #frame-content p {
-        font-size: 15px;
-        line-height: 25px;
-        padding-left: 25px;
-        width: 304px;
-        padding-top: 10px;
-    }
-    .framebtn {
-        margin-left: 33px;
-        margin-top: 21px;
-        padding-bottom: 30px;
-    }
-    .frame-btn1 button{
-        padding: 4px 19px;
-    }
-    .frame-btn2 button{
-        margin-left: 11px;  
-        padding: 4px 16px;
-    }
-    .event-content p::after {
-        width: 278px;
-    }
-    .Eventsection {
-        width: 100%;
-    }
-    .Eventsection p {
-        padding-left: 50px;
-    }
-    .event-grp {
-        padding-left: 0px;
-    }
-    .event-grp1 {
-        width: 100%;
-        margin-left: 0px;
-    }
-    .event-date1 h3{
-        font-size: 35px;
-        line-height: 45px;
-        padding-left: 5px;
-    }
-    .event-date1 span{
-        padding-left: 5px;
-        font-size: 15px;
-        line-height: 23px;
-    }
-    .event-date1 {
-        padding-left: 33px;
-        margin-left: 0px;
-    }
-    #event1 {
-        padding-left: 5px;
-    }
-    #event1 p {
-        width: 149px;
-        margin-left: 10px;
-    }
-    #event1 span {
-        font-size: 19px;
-        line-height: 29px;
-    }
-    #event1::after{
-        height: 134px;
-        margin-top: 63px;
-        margin-left: 11px;
-        width: 0px;
-    }
-    .event-grp2 {
-        width: 100%;
-        margin-left:0px;
-    }
-    .event-date2 h3{
-        font-size: 35px;
-        line-height: 45px;
-        padding-left: 5px;
-    }
-    .event-date2 span{
-        padding-left: 5px;
-        font-size: 15px;
-        line-height: 23px;
-    }
-    .event-date2 {
-        padding-left: 33px;
-        margin-left: 0px;
-    }
-    #event2 {
-        padding-left: 5px;
-    }
-    #event2 p {
-        width: 158px;
-        margin-left: 10px;
-    }
-    #event2 span {
-        font-size: 19px;
-        line-height: 29px;
-    }
-    #event2::after{
-        height: 134px;
-        margin-top: 63px;
-        margin-left: 11px;
-        width: 0px;
-    }
-    .frame-left p {
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .whatwedo {
-        padding: 20px 15px;
-    }
-    .whatsec-title {
-        padding-left: 7px;
-    }
-    .whatwedo-header{
-        padding: 11px 15px;
-    }
-    .whatsec-para p{
-        font-size: 41px;
-        line-height: 51px; 
-        text-align: center;
-        width: 317px;
-    }
-    .whatsec-content p {
-        width: 100%;
-        text-align: center;
-    }
-    .header-img img {
-        width:100%;
-        /* margin-left: 4px; */
-        height: 267px;
-    }
-    .title h3{
-        font-size: 33px;
-        line-height: 43px;
-        width: 100%;
-        text-align: center;
-        padding-left: 0px;
-        padding-top: 10px;
-    }
-    .features {
-        grid-template-columns: repeat(1, 1fr);
-        /* padding-left: 13px; */
-    }
-    .features p {
-        width: 100%;
-        padding-left: 52px;
-        font-size: 15px;
-    }
-    .projectsec-content h3 {
-        margin-left: 0px;
-        width: 100%;
-        text-align: center;
-        font-size: 36px;
-        line-height: 46px;
-        padding-top: 30px;
-    }
-    .contact-header {
-        display: flex;
+    .contact-detail {
         flex-wrap: wrap;
     }
-    .contact-text h2 {
-        width: 294px;
+    .contact-heading {
+        padding-top: 0px;
         font-size: 45px;
-        line-height: 55px;
-        padding-left:0px;
+        width: 338px;
     }
-    .contact-text p {
-        padding-left: 0px;
-        width: 264px;
-        text-align: center;
+    .hero-section {
+       flex-wrap: wrap;
     }
-    .Contactdetails {
-        padding-left: 92px;
-        padding-top: 30px;
+    .span-text {
+        margin: auto;
     }
-    .contact-img {
-        padding-bottom: 20px;
-        padding-top: 20px;
+    .Testimonial-Section {
+        padding: 50px 20px;
     }
-    .form-field {
-        padding: 17px 15px;
-    }
-    .form-field p {
-        width: 303px;
-        padding-bottom: 16px;
-    }
-    .form-field input {
-        width: 95%;
-    }
-    .contact-msg {
-        padding: 19px 15px;
-    }
-    textarea {
-        width: 100%;
-    }
-    .contact-btn {
-        padding-left: 130px;
-    }
-    .contact-btn button{
-        font-size: 14px;
-        padding: 9px 15px;
-    }
-    .name img {
-        margin-left: 9px;
-        width: 134px;
-        height: 33px;
-        margin-top:17px;
-    }
-    .contact-sec {
-        padding: 51px 15px;
-    }
-    .menu ul {
-        padding-left: 6px;
-    }
-    #name img {
-        width: 84px;
-        height: 48px;
-        margin-left: 20px;
-    }
-    #btn1 {
-        padding-top: 5px;
-    }
-    .btn1 button{
-        padding: 8px 19px;
-    }
-    .menu-icon .line {
-        width: 25px;
-        height: 1.6px;
-        /* padding-top: 7px; */
-    }
-    .contact-map iframe {
-        width: 100%;
-        height: 100%;
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-    .whatsec-title h3 {
-        width: 249px;
-    }
-    .contactsec-title h3 {
-        width: 219px;
-    }
-    /* .btn1 {
-        margin-left: 30px;
-    } */
-    .menu, .close{
-        display:block;
+    .Testimonial-sec {
+        flex-wrap: wrap;
     } 
-    .menu-icon{
-        display: inline-flex;
-        padding-top: 12px;
+    .Contact-Section {
+        padding: 50px 70px;
     }
-    .menu{
-        width: 100%;
+    .footer-section {
+        padding: 70px 20px;
+    }
+    .hero-sec-btn {
+        margin-bottom: 20px;
+    }
+    .footer-section li{
+        font-size: 15px;
+    }
+     .menu,.close{
+        display: block;
+     }
+     .nav-menu{
+        width: 350px;
         height: 100vh;
         position: fixed;
-        top: 0;
-        right: 0;
-        background-color: rgb(13, 80, 66);  
+        right: 0px;
+        top: 0px;
+        transition: .5s ease-out;
+        background-color: #8EADD5;
     }
-    .menu.active{
-        top: -1045px;
-    }
-    .menu ul{
-        margin-top: 60px;
+     .nav-menu ul {
+        padding-top: 100px;
         display: grid;
-        gap: 30px;
         text-align: center;
+        gap: 30px;
+        margin-left: 0px;
         
     }
-    .menu ul li a{
-        font-size: 17px;
-        color: #fff;
+    .nav-menu ul li a{
+        color: #ffffff;
     }
-    .about-page{
-        overflow-x: hidden;
+     .nav-menu.active{
+        right: -350px;
     }
-    .features h3 {
-        padding-left: 3px;
+    .Arrow-img{
+        display: none;
     }
-    
+    .arrow-img2{
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width:650px){
+    .section-one {
+        padding: 45px 10px 0px 18px;
+    }
+    .hero-section{
+        padding-top: 30px;
+    }
+    .hero-sec-img img {
+        width: 100%;
+        object-fit: contain;
+        height: 450px;
+    }
+    .main-heading {
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .body-text{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+    .hero-sec-btn {
+        margin-left: 90px;
+    }
+    .span-text{
+        padding-top: 100px;
+    }
+    .company-logos {
+        width: 100%;
+        height: 58px;
+    }
+    .company-logos img {
+        width: 66px;
+        height: 30px;
+        margin: 13px 8px;
+    }
+    .Branding-Section{
+        flex-direction: column-reverse;
+    }
+    .brand-sec-img img {
+        width: 100%;
+        height: 436px;
+        object-fit: contain;
+    }
+    .brand-heading {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .brand-text {
+        font-size: 15px;
+        line-height: 28px;
+        width: 100%;
+        padding-top: 24px;
+        text-align: center;
+    }
+    .customer-section{
+        padding: 37px 9px 0px 15px; 
+    }
+    .cust-sec-heading {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .cust-sec-text {
+        font-size: 16px;
+        line-height: 28px;
+        width:100%;
+        text-align: center;
+    }
+    .cust-sec-img img {
+        width: 100%;
+        object-fit: contain;
+        height: 450px;
+    }
+    .Testimonial-Section {
+        padding: 50px 15px;
+    }
+    .Testimonials p{
+        font-size: 40px;
+        width: 100%;
+    }
+    .cont-sec-img img{
+        display: none;
+    }
+    .Contact-Section {
+        padding: 50px 15px;
+    }
+    .contact-heading {
+        font-size: 32px;
+        line-height: 32px;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .contact-text {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;  
+    }
+    .footer-section {
+        display: grid;
+        text-align: left;
+        justify-content: flex-start;
+        padding: 20px 15px 30px;
+    }
+    .footer-text{
+        font-size: 16px;
+        padding: 0px 10px 18px;
+        justify-content: flex-start;
+    }
+    .nav-menu{
+        width: 350px;
+        height: 100vh;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        transition: .5s ease-out;
+        background-color:#8EADD5;
+    }
+    .nav-menu ul li {
+        margin-left: 0px;
+    }
+    .nav-menu.active{
+        right: -360px;
+    }
+    .Arrow-img{
+        display: none;
+    }
+    .arrow-img2{
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+
 }
